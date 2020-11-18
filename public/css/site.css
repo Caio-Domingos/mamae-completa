@@ -72,6 +72,20 @@ main {
 }
 
 #home .btn-quero-matricular {
+  border-color: transparent;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* neutral / basic / white */
+
+  color: #ffffff;
+
   width: 278px;
   height: 62px;
   padding: 16px;
@@ -79,7 +93,6 @@ main {
   box-shadow: 0px 10px 15px rgba(49, 5, 55, 0.1),
     0px 4px 6px rgba(49, 5, 55, 0.05);
   border-radius: 4px;
-  border-color: transparent;
 }
 
 #home .h-t-5 {
@@ -103,6 +116,20 @@ main {
 }
 
 #home .btn-quero-ser-melhor {
+  border-color: transparent;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* neutral / basic / white */
+
+  color: #ffffff;
+
   width: 336px;
   height: 62px;
   left: -9px;
@@ -111,7 +138,6 @@ main {
   box-shadow: 0px 10px 15px rgba(49, 5, 55, 0.1),
     0px 4px 6px rgba(49, 5, 55, 0.05);
   border-radius: 4px;
-  border-color: transparent;
 }
 
 /* About */
@@ -200,19 +226,29 @@ main {
 }
 
 #about .btn-quero-matricular-2 {
+  border-color: transparent;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* neutral / basic / white */
+
+  color: #ffffff;
+
   width: 278px;
   height: 62px;
   background: #9f4079;
   box-shadow: 0px 10px 15px rgba(49, 5, 55, 0.1),
     0px 4px 6px rgba(49, 5, 55, 0.05);
   border-radius: 4px;
-  border-color: transparent;
 }
 
 /* Black Friday */
-
-#black-friday {
-}
 
 #black-friday {
   display: flex;
@@ -267,6 +303,20 @@ main {
 }
 
 #black-friday .btn-comprar-agora {
+  border-color: transparent;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* neutral / basic / white */
+
+  color: #ffffff;
+
   width: 221px;
   height: 62px;
   background: #9f4079;
@@ -286,4 +336,69 @@ main {
 
 #black-friday .pagamentos .pagamentos-content img {
   height: 40px;
+}
+
+/* Who Course */
+
+#who-course {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#who-course img {
+  width: 300px;
+  height: 270px;
+  margin: 10px;
+
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1),
+    0px 10px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+}
+
+#who-course .h-t-1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  color: #35353b;
+}
+#who-course .h-t-2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  color: #35353b;
+}
+#who-course .h-t-3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #35353b;
+}
+
+#who-course .btn-realizar-matricula {
+  border-color: transparent;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* neutral / basic / white */
+
+  color: #ffffff;
+
+  width: 259px;
+  height: 92px;
+  background: #9f4079;
+  box-shadow: 0px 10px 15px rgba(49, 5, 55, 0.1),
+    0px 4px 6px rgba(49, 5, 55, 0.05);
+  border-radius: 4px;
 }
