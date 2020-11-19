@@ -68,6 +68,7 @@
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="./public/css/site.css" />
+    <link rel="stylesheet" href="./public/css/desktop.css" />
   </head>
   <body>
     <header>
@@ -98,8 +99,14 @@
           Quer saber mais? Assista o vídeo abaixo até o final!
         </p>
 
-        <div class="video-1 mt-3">
-          <img src="./public/images/video1.png" alt="" />
+        <div class="video-1">
+          <!-- <img src="./public/images/video1.png" alt="" /> -->
+          <iframe
+            src="https://www.youtube.com/embed/NIO_halv8a8"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
 
         <button type="button" class="btn btn-primary btn-quero-ser-melhor mt-4">
@@ -137,7 +144,7 @@
           </div>
         </div> -->
 
-        <div class="swiper-container modulos-swiper modulos py-4">
+        <div class="d-flex d-sm-none swiper-container modulos-swiper py-4">
           <div class="swiper-wrapper">
             <div class="swiper-slide modulo-content">
               <div class="modulo">
@@ -261,6 +268,96 @@
           <div class="swiper-pagination"></div>
         </div>
 
+        <div
+          class="d-none d-sm-flex flex-row justify-content-around align-items-center flex-wrap modulos"
+        >
+          <div class="modulo">
+            <p class="h-t-1-1">Módulo 1</p>
+            <p class="h-t-1-2 mt-3">
+              Como prevenir a depressão pós-parto, com nossa psicóloga Nayra.
+            </p>
+            <p class="h-t-1-3 mt-3">
+              Como prevenir a depressão pós-parto, que infelizmente afeta 20%
+              das mamães e algumas chegam a rejeitar o filho após o nascimento.
+              Mas não se preocupe, isso não vai acontecer com você porque nossa
+              psicóloga vai passar todas orientações para você e sua família.
+            </p>
+          </div>
+          <div class="modulo">
+            <p class="h-t-1-1">Módulo 2</p>
+            <p class="h-t-1-2 mt-3">
+              Parto e precauções, com nossos 3 Ginecologistas e Obstetras.
+            </p>
+            <p class="h-t-1-3 mt-3">
+              Neste módulo vamos falar sobre outra fatalidade que afeta 20% das
+              mamães é o aborto espontâneo. Mas nesse módulo nossos obstetras
+              vão orientar como se prevenir disso. Também irão falar sobre: Hora
+              do parto; Vantagens e desvantagens da cesariana vs. parto normal;
+              e Como se preparar para ter o mínimo de dor possível.
+            </p>
+          </div>
+          <div class="modulo">
+            <p class="h-t-1-1">Módulo 3</p>
+            <p class="h-t-1-2 mt-3">
+              Amamentação, com nossa enfermeira Aline e o Dr. Paulo, nosso
+              pediatra.
+            </p>
+            <p class="h-t-1-3 mt-3">
+              Nesse módulo terá: Preparação para amamentação antes do parto;
+              Cuidados com as mamas; Amamentação na primeira hora de vida; Pega
+              correta; Como evitar rachaduras; Posições corretas para amamentar;
+              Como aumentar a produção de leite; Relactação e translactação;
+              Tudo sobre amamentação na vida real. Ou seja, GARANTIMOS a você,
+              você vai conseguir amamentar independente do seu tipo de bico.
+            </p>
+          </div>
+          <div class="modulo mini-modulo">
+            <p class="h-t-1-1">Módulo 4</p>
+            <p class="h-t-1-2 mt-3">Sono do bebê com Dr. Paulo Telles.</p>
+          </div>
+          <div class="modulo mini-modulo">
+            <p class="h-t-1-1">Módulo 5</p>
+            <p class="h-t-1-2 mt-3">Nutrição com a nutricionista Roseli.</p>
+          </div>
+          <div class="modulo mini-modulo">
+            <p class="h-t-1-1">Módulo 6</p>
+            <p class="h-t-1-2 mt-3">Dermatologia com a dermatologista Laura.</p>
+          </div>
+          <div class="modulo mini-modulo">
+            <p class="h-t-1-1">Módulo 7</p>
+            <p class="h-t-1-2 mt-3">
+              Exercícios para a nova mamãe com nossa fisioterapeuta Patrícia.
+            </p>
+          </div>
+          <div class="modulo mini-modulo">
+            <p class="h-t-1-1">Módulo 8</p>
+            <p class="h-t-1-2 mt-3">
+              Como evitar cólicas com pediatra, nutricionista e enfermeira.
+            </p>
+          </div>
+          <div class="modulo mini-modulo">
+            <p class="h-t-1-1">Módulo 9</p>
+            <p class="h-t-1-2 mt-3">Primeiros socorros com enfermeira Aline.</p>
+          </div>
+          <div class="modulo mini-modulo">
+            <p class="h-t-1-1">Módulo 10</p>
+            <p class="h-t-1-2 mt-3">
+              Primeiras orientações com pediatra Paulo.
+            </p>
+          </div>
+          <div class="modulo mini-modulo">
+            <p class="h-t-1-1">Módulo 11</p>
+            <p class="h-t-1-2 mt-3">
+              Primeiras orientações com pediatra Paulo.
+            </p>
+          </div>
+          <div class="modulo mini-modulo">
+            <p class="h-t-1-1">Módulo BÔNUS</p>
+            <p class="h-t-1-4 mt-3">R$ 498,00</p>
+            <p class="h-t-1-5 mt-3">GRÁTIS!</p>
+          </div>
+        </div>
+
         <button
           type="button"
           class="btn btn-primary btn-quero-matricular-2 mt-4"
@@ -299,56 +396,76 @@
       </section>
 
       <section id="who-course" class="">
-        <img src="./public/images/mom-baby-1.png" alt="" />
-        <p class="h-t-1 mt-2">Basicamente, o que é o curso?</p>
-        <p class="h-t-2 mt-2">
-          Por que o curso Mamãe Completa é diferente?<br />
-          Porque ele não tem nada a ver com os cursos de hospitais ou qualquer
-          outro curso que existe por aí.
-        </p>
-        <p class="h-t-3 mt-4">
-          Não vamos falar apenas sobre um assunto, como por exemplo,
-          amamentação, sono do bebê, ou apenas o que a gestante não pode comer…
-        </p>
-        <p class="h-t-3 mt-4">
-          O Curso oferece toda orientação desde que a mamãe descobre que está
-          grávida até o seu filho ter 6 meses de vida!
-        </p>
-        <p class="h-t-3 mt-4">
-          Foi elaborado por toda nossa equipe de especialistas para orientar a
-          mamãe a ter uma gravidez segura e um filho saudável!
-        </p>
-        <img src="./public/images/mom-baby-2.png" alt="" />
-        <p class="h-t-1 mt-2">Para quem o curso é destinado?</p>
-        <p class="h-t-3 mt-4">
-          O Curso Mamãe Completa é destinado a gestantes e mamães com bebês de
-          até 6 meses. O curso é dividido em 11 módulos, com 120 aulas e 860
-          minutos de orientações! Ele é 100% online e você poderá ver e rever as
-          aulas quantas vezes você quiser para SEMPRE!
-        </p>
-        <button
-          type="button"
-          class="btn btn-primary btn-realizar-matricula my-4"
+        <div
+          class="who-course-content d-flex flex-column justify-content-sm-around flex-sm-row-reverse bg-1"
         >
-          CLIQUE AQUI E REALIZE SUA MATRÍCULA
-        </button>
-        <img src="./public/images/mom-baby-3.png" alt="" />
-        <p class="h-t-1 mt-2">
-          Porque criamos o curso e qual o custo benefício?
-        </p>
-        <p class="h-t-3 mt-4">
-          Sabemos que o custo de ir em 60 consultas para receber todas
-          orientações é muito caro e muitas mamães jamais teriam acesso a 11
-          médicos de alta qualidade. Por isso decidimos criar um curso que passe
-          todas essas orientações a um valor insignificante, menos do que uma
-          consulta com um médico.
-        </p>
-        <p class="h-t-3 mt-4">
-          E o melhor de tudo, a mamãe não precisa sair de casa! Sabemos o quanto
-          é cansativa e corrida a vida de mãe, mas esse curso foi pensado em
-          você! Basta ligar o computador ou até mesmo o celular e assistir todas
-          as aulas quantas vezes você quiser.
-        </p>
+          <img src="./public/images/mom-baby-1.png" alt="" />
+          <div class="who-course-text-content">
+            <p class="h-t-1 mt-2">Basicamente, o que é o curso?</p>
+            <p class="h-t-2 mt-2">
+              Por que o curso Mamãe Completa é diferente?<br />
+              Porque ele não tem nada a ver com os cursos de hospitais ou
+              qualquer outro curso que existe por aí.
+            </p>
+            <p class="h-t-3 mt-4">
+              Não vamos falar apenas sobre um assunto, como por exemplo,
+              amamentação, sono do bebê, ou apenas o que a gestante não pode
+              comer…
+            </p>
+            <p class="h-t-3 mt-4">
+              O Curso oferece toda orientação desde que a mamãe descobre que
+              está grávida até o seu filho ter 6 meses de vida!
+            </p>
+            <p class="h-t-3 mt-4">
+              Foi elaborado por toda nossa equipe de especialistas para orientar
+              a mamãe a ter uma gravidez segura e um filho saudável!
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="who-course-content d-flex flex-column justify-content-sm-around flex-sm-row bg-2"
+        >
+          <img src="./public/images/mom-baby-2.png" alt="" />
+          <div class="who-course-text-content">
+            <p class="h-t-1 mt-2">Para quem o curso é destinado?</p>
+            <p class="h-t-3 mt-4">
+              O Curso Mamãe Completa é destinado a gestantes e mamães com bebês
+              de até 6 meses. O curso é dividido em 11 módulos, com 120 aulas e
+              860 minutos de orientações! Ele é 100% online e você poderá ver e
+              rever as aulas quantas vezes você quiser para SEMPRE!
+            </p>
+            <button
+              type="button"
+              class="btn btn-primary btn-realizar-matricula my-4"
+            >
+              CLIQUE AQUI E REALIZE SUA MATRÍCULA
+            </button>
+          </div>
+        </div>
+        <div
+          class="who-course-content d-flex flex-column justify-content-sm-around flex-sm-row-reverse"
+        >
+          <img src="./public/images/mom-baby-3.png" alt="" />
+          <div class="who-course-text-content">
+            <p class="h-t-1 mt-2">
+              Porque criamos o curso e qual o custo benefício?
+            </p>
+            <p class="h-t-3 mt-4">
+              Sabemos que o custo de ir em 60 consultas para receber todas
+              orientações é muito caro e muitas mamães jamais teriam acesso a 11
+              médicos de alta qualidade. Por isso decidimos criar um curso que
+              passe todas essas orientações a um valor insignificante, menos do
+              que uma consulta com um médico.
+            </p>
+            <p class="h-t-3 mt-4">
+              E o melhor de tudo, a mamãe não precisa sair de casa! Sabemos o
+              quanto é cansativa e corrida a vida de mãe, mas esse curso foi
+              pensado em você! Basta ligar o computador ou até mesmo o celular e
+              assistir todas as aulas quantas vezes você quiser.
+            </p>
+          </div>
+        </div>
       </section>
 
       <section id="how-course" class="pt-5">
@@ -363,7 +480,7 @@
           </div>
         </div> -->
 
-        <div class="swiper-container vantagens-swiper">
+        <div class="d-flex d-sm-none swiper-container vantagens-swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="vantagens-content">
@@ -423,6 +540,53 @@
           </div>
           <div class="swiper-pagination pagination-vantagens"></div>
         </div>
+
+        <div
+          class="d-none d-sm-flex flex-row justify-content-around align-items-center flex-wrap vantagens"
+        >
+          <div class="vantagens-content">
+            <i class="fas fa-desktop"></i>
+            <p class="h-t-2 mt-4">
+              Curso é 100% online, você não precisa viajar até nossas clínicas e
+              consultórios.
+            </p>
+          </div>
+          <div class="vantagens-content">
+            <i class="far fa-eye"></i>
+            <p class="h-t-2 mt-4">
+              As aulas já estão gravadas, então você pode ver na hora e no ritmo
+              que você quiser.
+            </p>
+          </div>
+          <div class="vantagens-content">
+            <i class="fas fa-sync"></i>
+            <p class="h-t-2 mt-4">Você vai ter acesso às aulas para sempre!</p>
+          </div>
+          <div class="vantagens-content">
+            <i class="fas fa-lock-open"></i>
+            <p class="h-t-2 mt-4">
+              Ao efetuar a matrícula você receberá um login e senha por e-mail
+              para acessar os conteúdos.
+            </p>
+          </div>
+          <div class="vantagens-content">
+            <i class="fas fa-comment-dollar"></i>
+            <p class="h-t-2 mt-4">
+              Nosso curso está integrado com a Monetizze, a maior plataforma de
+              cursos online do Brasil.
+            </p>
+          </div>
+          <div class="vantagens-content">
+            <i class="far fa-calendar"></i>
+            <p class="h-t-2 mt-4">
+              7 dias de garantia! <br />
+              Se por algum motivo você não quiser mais participar do curso,
+              basta nos enviar um email ou para a Monetizze e na hora faremos o
+              reembolso total do valor.
+            </p>
+          </div>
+        </div>
+
         <button type="button" class="btn btn-primary btn-comprar-agora my-4">
           COMPRAR AGORA!
         </button>
@@ -451,7 +615,7 @@
           </div>
         </div> -->
 
-        <div class="swiper-container especialistas-swiper">
+        <div class="d-flex d-sm-none swiper-container especialistas-swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="especialistas-content">
@@ -572,6 +736,104 @@
           <!-- Add Pagination -->
           <div class="swiper-pagination pagination-especialistas"></div>
         </div>
+
+        <div
+          class="d-none d-sm-flex flex-row justify-content-around align-items-center flex-wrap especialistas"
+        >
+          <div class="especialistas-content">
+            <img src="./public/images/e-aline.png" alt="" />
+            <p class="text-center h-t-1 mt-2">Aline Fernandes</p>
+            <p class="text-center h-t-3 mt-2">
+              Aline Fernandes Enfermeira Obstetra <br />
+              COREN 181.782-SP
+            </p>
+          </div>
+          <div class="especialistas-content">
+            <img src="./public/images/e-thomas.png" alt="" />
+            <p class="text-center h-t-1 mt-2">Thomas Benson</p>
+            <p class="text-center h-t-3 mt-2">
+              Thomas Benson <br />
+              Cirurgião Plástico <br />
+              CRM 119.278-SP
+            </p>
+          </div>
+          <div class="especialistas-content">
+            <img src="./public/images/e-laura.png" alt="" />
+            <p class="text-center h-t-1 mt-2">Laura Shimizu</p>
+            <p class="text-center h-t-3 mt-2">
+              Laura Shimizu <br />
+              Dermatologista <br />
+              CRM 115.650-SP
+            </p>
+          </div>
+          <div class="especialistas-content">
+            <img src="./public/images/e-alfonso.png" alt="" />
+            <p class="text-center h-t-1 mt-2">Alfonso Massaguer</p>
+            <p class="text-center h-t-3 mt-2">
+              Médico Obstetra e Ginecologista <br />
+              CRM 97.335-SP
+            </p>
+          </div>
+          <div class="especialistas-content">
+            <img src="./public/images/e-fernanda.png" alt="" />
+            <p class="text-center h-t-1 mt-2">Fernanda Lamounier</p>
+            <p class="text-center h-t-3 mt-2">
+              Terapeuta Familiar/Biomédica <br />
+              CRBM 13.530
+            </p>
+          </div>
+          <div class="especialistas-content">
+            <img src="./public/images/e-vamberto.png" alt="" />
+            <p class="text-center h-t-1 mt-2">Vamberto Maia Filho</p>
+            <p class="text-center h-t-3 mt-2">
+              Médica Obstetra e Ginecologista <br />
+              CRM 117.477-SP
+            </p>
+          </div>
+          <div class="especialistas-content">
+            <img src="./public/images/e-patricia.png" alt="" />
+            <p class="text-center h-t-1 mt-2">Patrícia Valeriano</p>
+            <p class="text-center h-t-3 mt-2">
+              Patrícia Valeriano <br />
+              Fisioterapeuta <br />
+              CREFITTO 77.458/F
+            </p>
+          </div>
+          <div class="especialistas-content">
+            <img src="./public/images/e-paula.png" alt="" />
+            <p class="text-center h-t-1 mt-2">Paula Fettback</p>
+            <p class="text-center h-t-3 mt-2">
+              Médica Obstetra e Ginecologista <br />
+              CRM 117.477-SP
+            </p>
+          </div>
+          <div class="especialistas-content">
+            <img src="./public/images/e-nayra.png" alt="" />
+            <p class="text-center h-t-1 mt-2">Nayra Karam</p>
+            <p class="text-center h-t-3 mt-2">
+              Nayra Karam <br />
+              Psicóloga
+            </p>
+          </div>
+          <div class="especialistas-content">
+            <img src="./public/images/e-roseli.png" alt="" />
+            <p class="text-center h-t-1 mt-2">Roseli Ueno</p>
+            <p class="text-center h-t-3 mt-2">
+              Roseli Ueno <br />
+              Nutricionista <br />
+              CRN 5.676
+            </p>
+          </div>
+          <div class="especialistas-content">
+            <img src="./public/images/e-paulo.png" alt="" />
+            <p class="text-center h-t-1 mt-2">Paulo Telles</p>
+            <p class="text-center h-t-3 mt-2">
+              Paulo Telles <br />
+              Médico Pediatra <br />
+              CRM 109.556-SP
+            </p>
+          </div>
+        </div>
       </section>
 
       <section id="preview" class="pt-5">
@@ -579,50 +841,90 @@
           Liberamos 5 das 120 aulas para você conhecer um pouco de tudo que
           temos a oferecer!
         </p>
-        <div class="preview-content">
-          <img class="videos-preview" src="./public/images/video2.png" alt="" />
-          <p class="h-t-2 mt-4">Módulo Sono do Bebê - Aula 1</p>
-          <p class="h-t-3 mt-3">
-            Liberamos a primeira aula do módulo do sono do bebê para você
-            conhecer mais sobre nosso método didático, apenas uma prévia para
-            você sentir tudo o que temos a oferecer.
-          </p>
+        <div class="preview-content flex-sm-row justify-content-sm-around">
+          <iframe
+            class="videos-preview"
+            src="https://www.youtube.com/embed/mPyWHy5CccE"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="preview-text-content">
+            <p class="h-t-2 mt-4">Módulo Sono do Bebê - Aula 1</p>
+            <p class="h-t-3 mt-3">
+              Liberamos a primeira aula do módulo do sono do bebê para você
+              conhecer mais sobre nosso método didático, apenas uma prévia para
+              você sentir tudo o que temos a oferecer.
+            </p>
+          </div>
         </div>
-        <div class="preview-content">
-          <img class="videos-preview" src="./public/images/video3.png" alt="" />
-          <p class="h-t-2 mt-4">Depressão Pós-Parto - Aula 1</p>
-          <p class="h-t-3 mt-3">
-            Liberamos a primeira aula do módulo de depressão pós parto para você
-            conhecer mais sobre nosso método didático, apenas uma prévia para
-            você sentir tudo o que temos a oferecer.
-          </p>
+        <div class="preview-content flex-sm-row-reverse justify-content-sm-around">
+          <iframe
+            class="videos-preview"
+            src="https://www.youtube.com/embed/Sjlym7xiFio"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="preview-text-content">
+            <p class="h-t-2 mt-4">Depressão Pós-Parto - Aula 1</p>
+            <p class="h-t-3 mt-3">
+              Liberamos a primeira aula do módulo de depressão pós parto para
+              você conhecer mais sobre nosso método didático, apenas uma prévia
+              para você sentir tudo o que temos a oferecer.
+            </p>
+          </div>
         </div>
-        <div class="preview-content">
-          <img class="videos-preview" src="./public/images/video4.png" alt="" />
-          <p class="h-t-2 mt-4">Módulo Amamentação - Aula 1</p>
-          <p class="h-t-3 mt-3">
-            Liberamos a primeira aula do módulo de amamentação para você
-            conhecer mais sobre nosso método didático, apenas uma prévia para
-            você sentir tudo o que temos a oferecer.
-          </p>
+        <div class="preview-content flex-sm-row justify-content-sm-around">
+          <iframe
+            class="videos-preview"
+            src="https://www.youtube.com/embed/SIqCzCx4fYk"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="preview-text-content">
+            <p class="h-t-2 mt-4">Módulo Amamentação - Aula 1</p>
+            <p class="h-t-3 mt-3">
+              Liberamos a primeira aula do módulo de amamentação para você
+              conhecer mais sobre nosso método didático, apenas uma prévia para
+              você sentir tudo o que temos a oferecer.
+            </p>
+          </div>
         </div>
-        <div class="preview-content">
-          <img class="videos-preview" src="./public/images/video5.png" alt="" />
-          <p class="h-t-2 mt-4">Módulo Higiene do Bebê -  Aula 1</p>
-          <p class="h-t-3 mt-3">
-            Liberamos a primeira aula do módulo de higiene do bebê para você
-            conhecer mais sobre nosso método didático, apenas uma prévia para
-            você sentir tudo o que temos a oferecer.
-          </p>
+        <div class="preview-content flex-sm-row-reverse justify-content-sm-around">
+          <iframe
+            class="videos-preview"
+            src="https://www.youtube.com/embed/XNL3ru1y2_w"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="preview-text-content">
+            <p class="h-t-2 mt-4">Módulo Higiene do Bebê -  Aula 1</p>
+            <p class="h-t-3 mt-3">
+              Liberamos a primeira aula do módulo de higiene do bebê para você
+              conhecer mais sobre nosso método didático, apenas uma prévia para
+              você sentir tudo o que temos a oferecer.
+            </p>
+          </div>
         </div>
-        <div class="preview-content">
-          <img class="videos-preview" src="./public/images/video6.png" alt="" />
-          <p class="h-t-2 mt-4">Módulo Nutrição - Aula 1</p>
-          <p class="h-t-3 mt-3">
-            Liberamos a primeira aula do módulo de enjoo para você conhecer mais
-            sobre nosso método didático, apenas uma prévia para você sentir tudo
-            o que temos a oferecer.
-          </p>
+        <div class="preview-content flex-sm-row justify-content-sm-around">
+          <iframe
+            class="videos-preview"
+            src="https://www.youtube.com/embed/2yMSWjio6AQ"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="preview-text-content">
+            <p class="h-t-2 mt-4">Módulo Nutrição - Aula 1</p>
+            <p class="h-t-3 mt-3">
+              Liberamos a primeira aula do módulo de enjoo para você conhecer
+              mais sobre nosso método didático, apenas uma prévia para você
+              sentir tudo o que temos a oferecer.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -630,37 +932,61 @@
         <p class="text-center h-t-1 mt-2">
           Veja o que acharam as mamães sobre o curso!
         </p>
-        <div class="rating-videos mt-3">
-          <img src="./public/images/video7.png" alt="" />
-        </div>
-        <div class="rating-videos mt-3">
-          <img src="./public/images/video8.png" alt="" />
-        </div>
-        <div class="rating-videos mt-3">
-          <img src="./public/images/video9.png" alt="" />
-        </div>
-        <div class="rating-videos mt-3">
-          <img src="./public/images/video10.png" alt="" />
+        <div class="rating-videos">
+          <div class="rating-video mt-5">
+            <iframe
+              src="https://www.youtube.com/embed/CJAzYeqiivs"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="rating-video mt-5">
+            <iframe
+              src="https://www.youtube.com/embed/eKIi97u5L7I"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="rating-video mt-5">
+            <iframe
+              src="https://www.youtube.com/embed/Q8etUjZ2Py0"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="rating-video mt-5">
+            <iframe
+              src="https://www.youtube.com/embed/lVrTVyss3YM"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </section>
 
-      <section id="end" class="pt-5">
+      <section id="end" class="pt-5 flex-sm-row">
         <img src="./public/images/garantia.png" alt="" />
-        <p class="text-center h-t-1 my-5">
-          CURSO COMPLETO<br />+ TODOS OS BÔNUS<br />+ 1 ANO DE SUPORTE
-        </p>
-        <button class="btn btn-primary btn-realizar-matricula">
-          CLIQUE AQUI E REALIZE SUA MATRÍCULA
-        </button>
+        <div class="end-text-content">
+          <p class="text-center h-t-1 my-5">
+            CURSO COMPLETO<br />+ TODOS OS BÔNUS<br />+ 1 ANO DE SUPORTE
+          </p>
+          <button class="btn btn-primary btn-realizar-matricula">
+            CLIQUE AQUI E REALIZE SUA MATRÍCULA
+          </button>
+        </div>
       </section>
     </main>
 
-    <footer class="mt-5">
-      <div class="redes-sociais-links">
+    <footer class="mt-5 flex-md-row">
+      <div class="redes-sociais-links mx-5">
         <i class="fab fa-facebook-square"></i
         ><a class="ml-3" href="">Mamãe Completa Oficial</a>
       </div>
-      <div class="redes-sociais-links">
+      <div class="redes-sociais-links mx-5">
         <i class="fab fa-instagram"></i
         ><a class="ml-3" href="">Mamãecompleta.oficial</a>
       </div>

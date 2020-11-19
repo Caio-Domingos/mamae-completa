@@ -1,0 +1,95 @@
+@media (min-width: 576px) {
+  #home {
+    background-image: url('../images/d-bg-1.png');
+    background-size: 100% 100%;
+  }
+
+  #home .video-1 {
+    margin-top: 150px;
+  }
+
+  #about {
+    background-image: url('../images/d-bg-2.png');
+  }
+
+  #about .modulos {
+    width: 90%;
+  }
+  #about .modulo {
+    min-width: 280px;
+    max-width: 350px;
+    width: 30%;
+    margin: 10px;
+  }
+
+  #who-course .who-course-content {
+    width: 100%;
+    padding: 5vw 0;
+  }
+  #who-course .who-course-text-content {
+    max-width: 550px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #who-course .bg-1 {
+    background-image: url('../images/d-bg-3.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+  }
+  #who-course .bg-2 {
+    background-image: url('../images/d-bg-4.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+  }
+
+  #how-course .vantagens {
+    width: 90%;
+
+    background-image: url('../images/d-bg-5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  #how-course .vantagens-content {
+    min-width: 280px;
+    max-width: 350px;
+    width: 30%;
+    margin: 10px;
+  }
+
+  #workers .especialistas {
+    width: 90%;
+    margin-top: 80px;
+
+    background-image: url('../images/d-bg-6.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  #workers .especialistas-content {
+    min-width: 220px;
+    max-width: 280px;
+    width: 22%;
+    margin: 50px 0;
+  }
+
+  #preview .preview-text-content {
+    max-width: 550px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #rating .rating-video {
+    width: 40%;
+    height: 22vw;
+  }
+}
