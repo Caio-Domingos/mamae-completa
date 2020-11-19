@@ -81,9 +81,6 @@ main {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-
-  /* neutral / basic / white */
-
   color: #ffffff;
 
   width: 278px;
@@ -125,9 +122,6 @@ main {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-
-  /* neutral / basic / white */
-
   color: #ffffff;
 
   width: 336px;
@@ -235,9 +229,6 @@ main {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-
-  /* neutral / basic / white */
-
   color: #ffffff;
 
   width: 278px;
@@ -312,9 +303,6 @@ main {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-
-  /* neutral / basic / white */
-
   color: #ffffff;
 
   width: 221px;
@@ -390,9 +378,6 @@ main {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-
-  /* neutral / basic / white */
-
   color: #ffffff;
 
   width: 259px;
@@ -434,6 +419,7 @@ main {
   align-items: center;
   justify-content: center;
   width: 100%;
+  max-width: 350px;
 
   background-image: url('../images/bg-3.png');
   background-position: center;
@@ -468,9 +454,6 @@ main {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-
-  /* neutral / basic / white */
-
   color: #ffffff;
 
   width: 221px;
@@ -479,4 +462,78 @@ main {
   box-shadow: 0px 10px 15px rgba(49, 5, 55, 0.1),
     0px 4px 6px rgba(49, 5, 55, 0.05);
   border-radius: 4px;
+}
+
+/* Workers */
+
+#workers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#workers .h-t-1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  color: #35353b;
+}
+#workers .h-t-2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #35353b;
+}
+#workers .h-t-3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #a6a6ab;
+}
+
+#workers .especialistas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 350px;
+  height: 310px;
+  margin-top: 50px;
+
+  background-image: url('../images/bg-4.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#workers .especialistas .especialistas-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+  padding-top: 80px;
+
+  width: 226px;
+  height: 243px;
+  background: #ffffff;
+
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1),
+    0px 10px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+
+  position: relative;
+}
+
+#workers .especialistas .especialistas-content img {
+  position: absolute;
+  top: -75px;
+
+  width: 150px;
+  height: 150px;
 }
