@@ -186,15 +186,34 @@ main {
   justify-content: center;
 }
 
+#about .modulos-swiper {
+  width: 100%;
+  height: 650px;
+
+  transition: height 0.2s linear;
+}
+
+#about .modulos .modulo-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #about .modulos .modulo {
-  width: 318px;
-  height: 642px;
+  width: 280px;
+  height: 550px;
   padding: 20px;
+  margin: 0 20px;
 
   background: #ffffff;
   box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1),
     0px 10px 10px rgba(0, 0, 0, 0.04);
   border-radius: 16px;
+}
+
+#about .modulos .mini-modulo {
+  height: 300px;
 }
 
 #about .modulos .modulo .h-t-1-1 {
@@ -218,6 +237,23 @@ main {
   line-height: 150%;
   color: #35353b;
 }
+#about .modulos .modulo .h-t-1-4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  text-decoration-line: line-through;
+  color: #cccccc;
+}
+#about .modulos .modulo .h-t-1-5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 150%;
+  color: #ea7ea4;
+}
+
+/* Swiper (Remover) */
 
 #about .btn-quero-matricular-2 {
   border-color: transparent;
@@ -414,7 +450,20 @@ main {
   color: #35353b;
 }
 
-#how-course .vantagens {
+#how-course .vantagens-swiper {
+  width: 100%;
+  height: 450px;
+  max-width: 450px;
+
+  transition: height 0.2s linear;
+
+  background-image: url('../images/bg-3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* #how-course .vantagens {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -425,17 +474,23 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+} */
+
+#how-course .vantagens-swiper .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#how-course .vantagens .vantagens-content {
+#how-course .vantagens-swiper .vantagens-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 
   margin: 10px;
   padding: 32px;
-  width: 320px;
-  height: 250px;
+  width: 280px;
+  height: 350px;
 
   background: #ffffff;
 
@@ -496,14 +551,13 @@ main {
   color: #a6a6ab;
 }
 
-#workers .especialistas {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#workers .especialistas-swiper {
   width: 100%;
-  max-width: 350px;
-  height: 310px;
+  height: 450px;
+  max-width: 450px;
   margin-top: 50px;
+
+  transition: height 0.2s linear;
 
   background-image: url('../images/bg-4.png');
   background-position: center;
@@ -511,7 +565,27 @@ main {
   background-size: cover;
 }
 
-#workers .especialistas .especialistas-content {
+/* #workers .especialistas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 350px;
+  height: 310px;
+
+  background-image: url('../images/bg-4.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+#workers .especialistas-swiper .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#workers .especialistas-swiper .especialistas-content {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -520,7 +594,7 @@ main {
   padding-top: 80px;
 
   width: 226px;
-  height: 243px;
+  height: 300px;
   background: #ffffff;
 
   box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1),
@@ -530,7 +604,7 @@ main {
   position: relative;
 }
 
-#workers .especialistas .especialistas-content img {
+#workers .especialistas-swiper .especialistas-content img {
   position: absolute;
   top: -75px;
 
